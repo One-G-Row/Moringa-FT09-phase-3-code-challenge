@@ -1,6 +1,4 @@
-
-
-
+from app import CURSOR, CONN
 class Article:
     def __init__(self, id, title, content, author_id, magazine_id):
         self.id = id
@@ -122,4 +120,4 @@ class Article:
         rows = CURSOR.execute(sql, (self.author_id,)).fetchall()
         return [self.instance_from_db(row) for row in rows]
 
-#article = Article(1, "Test Title", "Test Content", 1, 1)
+

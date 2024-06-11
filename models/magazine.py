@@ -1,5 +1,4 @@
 #lib/author.py
-#from database.connection import get_db_connection
 from app import CURSOR, CONN
 
 class Magazine:
@@ -120,4 +119,3 @@ class Magazine:
     def __repr__(self):
         return f'<Magazine {self.name}>'
 
-magazine = Magazine(1, "Tech Weekly")

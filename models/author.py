@@ -1,6 +1,6 @@
 #lib/author.py
 from app import CURSOR, CONN
-#from database.connection import get_db_connection
+
 
 class Author:
     all = []
