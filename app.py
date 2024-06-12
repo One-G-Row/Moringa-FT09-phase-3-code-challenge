@@ -57,4 +57,4 @@ def main():
               f'Author ID: {article["author_id"]}, Magazine ID: {article["magazine_id"]}')
 """  """
 if __name__ == "__main__":
-    main()
+    main()  
